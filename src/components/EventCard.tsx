@@ -1,5 +1,3 @@
-import React from "react";
-
 type EventCardProps = {
   title: string;
   titleAr: string;

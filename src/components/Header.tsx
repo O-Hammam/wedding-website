@@ -48,10 +48,10 @@ const Header: React.FC = () => {
           </p>
         </div>
         <p className="font-arabicAmiri text-2xl text-center text-sage-dark">
-          نتشرف بدعوتكم لتشاركونا فرحتنا
+          نتـشـرف بدعـوتـكم لتـشاركــونا فـرحـتنا
         </p>
         <p className="font-arabicAmiri text-2xl text-center text-sage-dark">
-          وذلك بمشيئة الله تعالى
+          وذلـك بمـشــيـئـة الله تـعــالى
         </p>
       </div>
     </div>

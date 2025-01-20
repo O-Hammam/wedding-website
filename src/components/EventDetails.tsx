@@ -1,6 +1,3 @@
-import React from "react";
-import { events } from "../data/events";
-
 type EventDetailsProps = {
   event: {
     titleEn: string;
@@ -22,7 +19,7 @@ export const EventDetails = ({ event }: EventDetailsProps) => {
     <div className="grid grid-cols-1 mt-8">
       {/* Arabic Section - Right Side */}
       <div
-        className="reverse font-arabicAmiri border-4 border-gold p-8 shadow-2xl hover:shadow-3xl transition-all duration-300 bg-gradient-to-bl from-gold-light to-gray-100 relative transform hover:-translate-y-1"
+        className="reverse font-semibold font-arabicAmiri border-4 border-gold p-8 shadow-2xl hover:shadow-3xl transition-all duration-300 bg-gradient-to-bl from-gold-light to-gray-100 relative transform hover:-translate-y-1"
         dir="rtl"
         style={{
           backgroundImage: `url('/assets/pattern.svg')`,
@@ -58,8 +55,11 @@ export const EventDetails = ({ event }: EventDetailsProps) => {
         </div>
       </div>
       {/* Map section */}
-      <div className="col-span-full mb-8">
+      <div className="col-span-full mb-8 mt-2">
         <div className="max-w-4xl mx-auto mt-8">
+          <p className="text-center text-gold-dark font-bold font-arabicAmiri text-xl mb-2">
+            •✦• ── •• الــخــريــطــة •• ── •✦•
+          </p>
           <div className="border-4 border-gold-light rounded-sm overflow-hidden shadow-xl">
             <iframe
               src={event.mapUrl}
@@ -71,6 +71,9 @@ export const EventDetails = ({ event }: EventDetailsProps) => {
               className="w-full"
             ></iframe>
           </div>
+          <p className="text-center text-gold-dark font-bold font-arabicAmiri text-xl mt-4">
+            •✦• ────── ••• ────── •✦•
+          </p>
         </div>
       </div>
     </div>
