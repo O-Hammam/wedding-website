@@ -8,6 +8,7 @@ export default {
         englishTitle: ["Great Vibes", "serif"],
         arabic: ["Aref Ruqaa", "serif"],
         arabicTitle: ["Aref Ruqaa", "serif"],
+        arabicAmiri: ["Amiri", "serif"],
       },
       colors: {
         gold: {
