@@ -10,9 +10,9 @@ const Header: React.FC = () => {
       />
       <div className="w-64 h-auto mx-auto transform hover:scale-105 transition-transform duration-300">
         <img
-          src="/assets/omarwsalma-3.webp"
+          src="/assets/couple.webp"
           alt="Happy Couple"
-          className="w-full h-full object-cover mb-8"
+          className="w-full h-full object-cover mb-12"
         />
       </div>
       <div className="relative mb-2">
@@ -34,23 +34,19 @@ const Header: React.FC = () => {
       </div>
       <div className="pb-2 space-y-2">
         <div className="mb-4 drop-shadow-sm">
-          <p className="text-lg text-center text-sage-dark">
-            ───── ⋆⋅☆⋅⋆ ─────
-          </p>
+          <p className="text-lg text-center text-jetText">───── ⋆⋅☆⋅⋆ ─────</p>
           <h2 className="text-5xl font-arabicTitle font-bold text-center text-gold-dark">
             دعوة زفاف
           </h2>
           <h2 className="font-englishTitle text-2xl font-semibold mt-2 text-center text-gold-dark">
             Wedding Invitation
           </h2>
-          <p className="text-lg text-center text-sage-dark">
-            ───── ⋆⋅☆⋅⋆ ─────
-          </p>
+          <p className="text-lg text-center text-jetText">───── ⋆⋅☆⋅⋆ ─────</p>
         </div>
-        <p className="font-arabicAmiri text-2xl text-center text-sage-dark">
+        <p className="font-arabicAmiri text-2xl text-center text-jetText">
           نتـشـرف بدعـوتـكم لتـشاركــونا فـرحـتنا
         </p>
-        <p className="font-arabicAmiri text-2xl text-center text-sage-dark">
+        <p className="font-arabicAmiri text-2xl text-center text-jetText">
           وذلـك بمـشــيـئـة الله تـعــالى
         </p>
       </div>

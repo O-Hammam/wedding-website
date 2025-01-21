@@ -17,9 +17,12 @@ export default {
           dark: "#B4941F",
         },
         sage: {
-          light: "#E1E5D6",
+          light: "#E0E9C9",
           DEFAULT: "#9CAF88",
-          dark: "#708060",
+          dark: "#363E2E",
+        },
+        jetText: {
+          DEFAULT: "#2C2C2C",
         },
       },
     },

@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="218.69122mm"
+   width="218.69363mm"
    height="329.8732mm"
-   viewBox="0 0 218.69122 329.8732"
+   viewBox="0 0 218.69363 329.8732"
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.80844907"
-     inkscape:cx="1172.6156"
-     inkscape:cy="913.47746"
+     inkscape:zoom="1.1433196"
+     inkscape:cx="303.50218"
+     inkscape:cy="678.28802"
      inkscape:window-width="3840"
      inkscape:window-height="2054"
      inkscape:window-x="-11"
@@ -2022,11 +2022,11 @@
        clipPathUnits="userSpaceOnUse"
        id="clipPath3">
       <rect
-         style="opacity:0.376;fill:#b39420;fill-opacity:1;stroke:none;stroke-width:22.095;stroke-opacity:0.284211"
+         style="opacity:0.376;fill:#b39420;fill-opacity:1;stroke:none;stroke-width:22.1074;stroke-opacity:0.284211"
          id="rect3"
-         width="219.18073"
+         width="219.42741"
          height="329.9014"
-         x="0.75450629"
+         x="0.63124335"
          y="-259.96606"
          transform="scale(1,-1)" />
     </clipPath>
@@ -2163,7 +2163,7 @@
        y="0"
        xlink:href="#g7"
        id="use147"
-       transform="matrix(-1,0,0,1,220.06637,0)"
+       transform="matrix(-1.0011255,0,0,1,220.18994,0)"
        clip-path="url(#clipPath5)" />
     <use
        x="0"
@@ -2177,7 +2177,7 @@
        y="0"
        xlink:href="#use147"
        id="use149"
-       transform="matrix(1,0,0,-1,0,190.03743)"
+       transform="matrix(0.99511255,0,0,-1,1.0681284,190.03743)"
        clip-path="url(#clipPath3)" />
   </g>
   <g
