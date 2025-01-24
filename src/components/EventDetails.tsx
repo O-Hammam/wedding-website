@@ -12,13 +12,14 @@ type EventDetailsProps = {
     hallAr: string;
     venueAr: string;
     areaAr: string;
+    areaEn: string;
     mapUrl: string;
   };
 };
 
 export const EventDetails = ({ event }: EventDetailsProps) => {
   return (
-    <div className="grid grid-cols-1 mt-8">
+    <div className="grid grid-cols-1 mt-4">
       <div
         className={`event-details relative font-semibold font-arabicAmiri border-4 p-6 shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-1 ${
           event.titleEn === "Marriage Ceremony"
@@ -27,7 +28,7 @@ export const EventDetails = ({ event }: EventDetailsProps) => {
         }`}
         dir="rtl"
       >
-        <div className="space-y-2 text-2xl mb-6 text-sage-dark">
+        <div className="space-y-2 text-2xl mb-6 text-jetText">
           <p className="flex flex-col justify-between items-center gap-2">
             {event.titleAr}
           </p>
@@ -49,6 +50,7 @@ export const EventDetails = ({ event }: EventDetailsProps) => {
           </p>
           <p className="flex flex-col justify-between items-center gap-2 mt-1">
             <span className="text-center">{event.venueEn}</span>
+            <span className="text-center">{event.areaEn}</span>
           </p>
         </div>
       </div>

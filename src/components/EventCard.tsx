@@ -22,7 +22,7 @@ export const EventCard = ({
       className={`
         cursor-pointer transition-all duration-300 ease-in-out relative
         border-4 rounded-md
-        ${title === "Marriage Ceremony" ? "text-sage-dark" : ""}
+        ${title === "Marriage Ceremony" ? "text-jetText" : ""}
         ${title === "Wedding Reception" ? "text-gold-dark" : ""}
         ${
           !isSelected
@@ -44,7 +44,7 @@ export const EventCard = ({
         </div>
         {/* English Section */}
         <div className="mb-2">
-          <h3 className="text-2xl font-englishTitle text-center mt-2">
+          <h3 className="text-2xl font-englishSubTitle text-center mt-2">
             {title}
           </h3>
         </div>
