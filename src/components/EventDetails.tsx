@@ -27,6 +27,20 @@ export const EventDetails = ({ event }: EventDetailsProps) => {
             : "border-gold-dark bg-gold-light"
         }`}
         dir="rtl"
+        style={{
+          backgroundColor:
+            event.titleEn === "Marriage Ceremony" ? "#F8F8F4" : "#FBF3DC",
+          borderColor:
+            event.titleEn === "Marriage Ceremony" ? "#DED8BB" : "#B4941F",
+          backgroundImage:
+            event.titleEn === "Marriage Ceremony"
+              ? `linear-gradient(to top, #F8F8F466, #F8F8F44D),
+            url('/assets/paper.jpg')`
+              : `linear-gradient(to top, #FBF3DC66, #FBF3DC4D),
+            url('/assets/paper.jpg')`,
+          backgroundSize: "cover",
+          borderStyle: "solid",
+        }}
       >
         <div className="space-y-2 text-2xl mb-6 text-jetText">
           <p className="flex flex-col justify-between items-center gap-2">
@@ -54,6 +68,7 @@ export const EventDetails = ({ event }: EventDetailsProps) => {
           </p>
         </div>
       </div>
+
       {/* Map section */}
       <div className="col-span-full mb-8 mt-2 relative">
         <div className="max-w-4xl mx-auto mt-8">

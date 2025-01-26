@@ -13,23 +13,17 @@ export default {
       },
       colors: {
         gold: {
-          light: "#F8EED1",
-          // light: "#F5E6BE",
+          light: "#efece4",
           DEFAULT: "#D4AF37",
           dark: "#B4941F",
         },
         sage: {
-          light: "#F8F8F4",
-          // light: "#E0E9C9",
+          light: "#f5f2f5",
           DEFAULT: "#9CAF88",
-          // dark: "#363E2E",
-          dark: "#E7E1C5",
+          dark: "#DED8BB",
         },
         jetText: {
           DEFAULT: "#2C2C2C",
-        },
-        edge: {
-          DEFAULT: "#F8EED1",
         },
       },
     },
