@@ -8,7 +8,7 @@ const Header: React.FC = () => {
         alt="Bismillah"
         className="w-40 h-auto mx-auto object-cover mb-2 py-2 border-b border-gold"
       />
-      <div className="w-72 h-auto mx-auto transform hover:scale-105 transition-transform duration-300">
+      <div className="w-64 h-auto mx-auto transform hover:scale-105 transition-transform duration-300">
         <img
           src="/assets/couple.webp"
           alt="Happy Couple"
