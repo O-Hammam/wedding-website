@@ -30,8 +30,16 @@ export const EventDetails = ({ event }: EventDetailsProps) => {
       >
         <div>
           <img
-            src="/assets/stamp.svg"
-            className="absolute w-[20%] lg:w-32 opacity-95 left-2 top-2 mix-blend-darken"
+            src={
+              event.titleEn === "Marriage Ceremony"
+                ? "/assets/stamp-sage.svg"
+                : "/assets/stamp-gold.svg"
+            }
+            className={`absolute w-[20%] lg:w-32 opacity-90 top-2 mix-blend-darken}${
+              event.titleEn === "Marriage Ceremony"
+                ? " right-3 rotate-45"
+                : " left-3"
+            }`}
           ></img>
         </div>
 
