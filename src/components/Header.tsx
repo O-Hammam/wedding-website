@@ -15,8 +15,8 @@ const Header: React.FC = () => {
           className="w-full h-full object-cover mb-10"
         />
       </div>
-      <div className="relative mb-2">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 relative items-center">
+      <div className="relative mb-2 grid grid-cols-1 justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 relative items-center max-w-4xl">
           <div className="flex justify-center items-center">
             <h1 className="text-6xl font-englishTitle font-bold px-4 mt-2 text-gold-dark text-center drop-shadow-md">
               Groom&nbsp;
