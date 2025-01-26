@@ -21,26 +21,12 @@ export const EventDetails = ({ event }: EventDetailsProps) => {
   return (
     <div className="grid grid-cols-1 mt-4">
       <div
-        className={`event-details relative font-semibold font-arabicAmiri border-4 p-6 shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-1 ${
+        className={`event-details relative font-semibold font-arabicAmiri border-4 p-6 shadow-xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-1 ${
           event.titleEn === "Marriage Ceremony"
-            ? "border-sage-dark bg-sage-light"
-            : "border-gold-dark bg-gold-light"
+            ? "marriage-ceremony"
+            : "wedding-reception"
         }`}
         dir="rtl"
-        style={{
-          backgroundColor:
-            event.titleEn === "Marriage Ceremony" ? "#F8F8F4" : "#FBF3DC",
-          borderColor:
-            event.titleEn === "Marriage Ceremony" ? "#DED8BB" : "#B4941F",
-          backgroundImage:
-            event.titleEn === "Marriage Ceremony"
-              ? `linear-gradient(to top, #F8F8F466, #F8F8F44D),
-            url('/assets/paper.jpg')`
-              : `linear-gradient(to top, #FBF3DC66, #FBF3DC4D),
-            url('/assets/paper.jpg')`,
-          backgroundSize: "cover",
-          borderStyle: "solid",
-        }}
       >
         <div className="space-y-2 text-2xl mb-6 text-jetText">
           <p className="flex flex-col justify-between items-center gap-2">

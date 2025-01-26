@@ -1,3 +1,21 @@
+.event-details {
+  background-size: cover;
+}
+
+.event-details.marriage-ceremony {
+  background-color: #f8f8f4;
+  border-color: #ded8bb;
+  background-image: linear-gradient(to top, #f3f3f133, #f3f3f180),
+    url("/assets/paper.jpg");
+}
+
+.event-details.wedding-reception {
+  background-color: #fbf3dc;
+  border-color: #b4941f;
+  background-image: linear-gradient(to top, #fbf3dc33, #fbf3dc80),
+    url("/assets/paper.jpg");
+}
+
 .event-details::after {
   content: "";
   position: absolute;

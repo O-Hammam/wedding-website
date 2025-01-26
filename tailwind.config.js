@@ -18,7 +18,7 @@ export default {
           dark: "#B4941F",
         },
         sage: {
-          light: "#f5f2f5",
+          light: "#f0f0ef",
           DEFAULT: "#9CAF88",
           dark: "#DED8BB",
         },
