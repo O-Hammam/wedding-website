@@ -28,7 +28,14 @@ export const EventDetails = ({ event }: EventDetailsProps) => {
         }`}
         dir="rtl"
       >
-        <div className="space-y-2 text-2xl mb-6 text-jetText">
+        <div>
+          <img
+            src="/assets/stamp.svg"
+            className="absolute w-[20%] lg:w-32 opacity-95 left-2 top-2 mix-blend-darken"
+          ></img>
+        </div>
+
+        <div className="space-y-2 text-2xl mt-6 mb-6 text-jetText">
           <p className="flex flex-col justify-between items-center gap-2">
             {event.titleAr}
           </p>
@@ -42,7 +49,7 @@ export const EventDetails = ({ event }: EventDetailsProps) => {
             <span className="text-center">{event.areaAr}</span>
           </p>
         </div>
-        <div className="font-english space-y-2 text-md text-jetText">
+        <div className="font-english space-y-2 text-md text-jetText mb-2">
           <p className="flex flex-col justify-between items-center gap-2 mt-2">
             <span className="text-center">
               {event.dateEn} at {event.timeEn}
