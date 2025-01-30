@@ -61,7 +61,10 @@ const Header: React.FC = () => {
           </h1>
         </div>
       </div>
-      <div className={`pb-2 space-y-2 ${showNames ? "slide-down" : "hidden"}`}>
+      <div
+        className={`pb-2 space-y-2 ${showNames ? "slide-down" : "hidden"}`}
+        dir="rtl"
+      >
         <div className="mb-4 drop-shadow-sm">
           <p className="text-lg text-center text-jetText">───── ⋆⋅☆⋅⋆ ─────</p>
           <h2 className="mt-2 text-5xl font-arabicTitle font-bold text-center text-gold-dark">
@@ -72,9 +75,16 @@ const Header: React.FC = () => {
           </h2>
           <p className="text-lg text-center text-jetText">───── ⋆⋅☆⋅⋆ ─────</p>
         </div>
-        <div className="font-arabicAmiri space-y-2 text-2xl text-center text-jetText">
-          <p>نتـشـرف بدعـوتـكم لتـشاركــونا فـرحـتنا</p>
-          <p>وذلك بمـشــيـئـة الله تـعــالى</p>
+        <div className="font-arabicAmiri space-y-2 text-center text-jetText">
+          <p className="mb-2 font-semibold leading-[2] text-md">
+            《 &nbsp;وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ
+            أَزْوَاجًا
+            <br className="md:hidden" />
+            &nbsp;لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً
+            وَرَحْمَةً &nbsp;》
+          </p>
+          <p className="text-xl">نتـشـرف بدعـوتـكم لتـشاركــونا فـرحـتنا</p>
+          <p className="text-xl">وذلك بمـشــيـئـة الله تـعــالى</p>
         </div>
       </div>
     </div>
