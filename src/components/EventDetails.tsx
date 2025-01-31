@@ -95,3 +95,5 @@ export const EventDetails = ({ event }: EventDetailsProps) => {
     </div>
   );
 };
+
+export default EventDetails;

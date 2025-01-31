@@ -1,7 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./Header.css"; // Import the CSS file for animations
 
-const Header: React.FC = () => {
+type HeaderProps = {
+  headerTagAr: string;
+  headerTagEn: string;
+};
+
+const Header: React.FC<HeaderProps> = ({ headerTagAr, headerTagEn }) => {
   const [showNames, setShowNames] = useState(false);
   const [showImage, setShowImage] = useState(false);
 
@@ -68,10 +73,10 @@ const Header: React.FC = () => {
         <div className="mb-4 drop-shadow-sm">
           <p className="text-lg text-center text-jetText">───── ⋆⋅☆⋅⋆ ─────</p>
           <h2 className="mt-2 text-5xl font-arabicTitle font-bold text-center text-gold-dark">
-            دعوة زفاف
+            {headerTagAr}
           </h2>
-          <h2 className="font-english text-2xl font-semibold my-2 text-center text-gold-dark">
-            Wedding Invitation
+          <h2 className="font-english text-2xl font-semibold my-2 mt-4 text-center text-gold-dark">
+            {headerTagEn}
           </h2>
           <p className="text-lg text-center text-jetText">───── ⋆⋅☆⋅⋆ ─────</p>
         </div>
