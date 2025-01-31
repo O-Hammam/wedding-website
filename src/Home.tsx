@@ -43,7 +43,7 @@ const Home: React.FC = () => {
         {/* Event Cards Container */}
         <div ref={eventCardRef} className="space-y-6 scroll-mt-4">
           {showEventCards && (
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4 slide-down">
               <div>
                 <EventCard
                   title={events.reception.titleEn}
