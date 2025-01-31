@@ -6,7 +6,7 @@ import LandingPage from "./components/LandingPage";
 const AppRoutes = () => (
   <Routes>
     <Route path="/" element={<LandingPage />} />
-    <Route path="/el-fara7" element={<Home />} />
+    <Route path="/wedding-invitation" element={<Home />} />
     <Route path="/katb-el-ketab" element={<MarriageCeremony />} />
   </Routes>
 );

@@ -81,13 +81,17 @@ const Header: React.FC<HeaderProps> = ({ headerTagAr, headerTagEn }) => {
           <p className="text-lg text-center text-jetText">───── ⋆⋅☆⋅⋆ ─────</p>
         </div>
         <div className="font-arabicAmiri space-y-2 text-center text-jetText">
-          <p className="mb-2 font-semibold leading-[2] text-md">
-            《 &nbsp;وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ
-            أَزْوَاجًا
+          <p className="mb-2 font-arabicQuran leading-[1.5] text-md">
+            《 &nbsp;وَمِنْ آيَاتِـهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ
+            أَزْوَاجًـا
             <br className="md:hidden" />
-            &nbsp;لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً
-            وَرَحْمَةً &nbsp;》
+            <span className="md:hidden">
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            </span>
+            &nbsp;لِّـتَسْكُنُـوا إِلَيْـهَا وَجَـعَـلَ بَيْنَكُم مَّــوَدَّةً
+            وَرَحْـمَــةً &nbsp;》
           </p>
+          <p>─ •• ─</p>
           <p className="text-xl">نتـشـرف بدعـوتـكم لتـشاركــونا فـرحـتنا</p>
           <p className="text-xl">وذلك بمـشــيـئـة الله تـعــالى</p>
         </div>

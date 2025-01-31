@@ -10,6 +10,7 @@ export default {
         arabic: ["Aref Ruqaa", "serif"],
         arabicTitle: ["Aref Ruqaa", "serif"],
         arabicAmiri: ["Amiri", "serif"],
+        arabicQuran: ["Quran", "serif"],
       },
       colors: {
         gold: {
