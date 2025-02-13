@@ -1,50 +1,39 @@
-# React + TypeScript + Vite
+## Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully self-hosted, containerized static website built as a wedding invitation.
 
-Currently, two official plugins are available:
+I designed this project to explore modern web technologies, automation, and deployment best practices while building a polished, real-world application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+_Private information and photos were replaced with placeholders._
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**Frontend:** React + TypeScript + Vite
 
-- Configure the top-level `parserOptions` property like this:
+- Component-based architecture for maintainability and scalability
+- Optimized for performance with lazy loading
+- Fully responsive, mobile-first design
+- Page view analytics with Umami (self-hosted, privacy-focused tracking)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+**Infrastructure & Deployment:**
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Containerized with Docker** → Ensures consistent and reproducible deployments
+- **Served via NGINX** → Optimized for static file delivery
+- **Reverse-proxied with Traefik** → Dynamic routing and rate limiting
+- **Self-hosted on a remote Linux server** → Full control over infrastructure (currently moved to on-prem)
+- **DNS & SSL handled via Cloudflare** → Secure, globally optimized traffic routing
+- **Persistent storage on ZFS** → Ensuring data integrity and reliability
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## DevOps & Automation
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **GitHub-based deployment workflow** → Push to `main` triggers automated builds and redeploys
+- **Infrastructure as Code** → WIP
+- **Log monitoring & error tracking** → WIP
+- **Automated SSL renewal** → No manual intervention required (handled by traefik)
+- **Rolling updates with zero downtime** → Ensures a seamless experience
+
+## Takeaways
+
+Although this is a relatively simple website, it was very valuable to code, build, and deploy all by myself, and leverage different services and technologies to build a polished, real-world application.
+
+I am excited to continue building on this project and exploring more advanced features and optimizations in the future, especially when it comes to IaC.
