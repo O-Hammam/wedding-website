@@ -1,0 +1,36 @@
+export const events = {
+  ceremony: {
+    headerTagAr: "عقد القـــران",
+    headerTagEn: "Marriage Ceremony",
+    titleEn: "Marriage Ceremony",
+    titleAr: "عقد القـــران",
+    dateEn: "Day, Month nth, 20xx",
+    dateAr: "اليوم ـ الشهر ــ٢٠",
+    timeEn: "8:00 PM",
+    timeAr: "الثــامـنـــة مـسـاءً",
+    venueEn: "**REDACTED VENUE**",
+    hallAr: "بالقـاعــة ",
+    venueAr: "**معلومات محذوفة**",
+    areaAr: "المديــنة",
+    areaEn: "**REDACTED CITY**",
+    mapUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40941.94748614489!2d-14.386656611650771!3d-7.929970541925246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5b0f439cf9e7bfb%3A0x1da00619f10933c6!2sGreen%20Mountain%20National%20Park!5e0!3m2!1sen!2sse!4v1739451040041!5m2!1sen!2sse",
+  },
+  reception: {
+    headerTagAr: "دعوة زفاف",
+    headerTagEn: "Wedding Invitation",
+    titleEn: "Wedding Reception",
+    titleAr: "حفــل الزفــاف",
+    dateEn: "Day, Month nth, 20xx",
+    dateAr: "اليوم ـ الشهر ــ٢٠",
+    timeEn: "8:00 PM",
+    timeAr: "الثــامـنـــة مـسـاءً",
+    venueEn: "**REDACTED VENUE**",
+    hallAr: "بالقـاعــة ",
+    venueAr: "**معلومات محذوفة**",
+    areaAr: "المديــنة",
+    areaEn: "**REDACTED CITY**",
+    mapUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40941.94748614489!2d-14.386656611650771!3d-7.929970541925246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5b0f439cf9e7bfb%3A0x1da00619f10933c6!2sGreen%20Mountain%20National%20Park!5e0!3m2!1sen!2sse!4v1739451040041!5m2!1sen!2sse",
+  },
+};
