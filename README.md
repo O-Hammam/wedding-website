@@ -1,6 +1,6 @@
 ## Overview
 
-A fully self-hosted, containerized static website built as a wedding invitation.
+A fully self-hosted, containerized static website built as a wedding invitation. https://wedding.ohmm.cloud/wedding-invitation
 
 I designed this project to explore modern web technologies, automation, and deployment best practices while building a polished, real-world application.
 
